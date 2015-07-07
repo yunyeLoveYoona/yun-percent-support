@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+ <com.example.administrator.percent.view.PercentRelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:layout_widthPercentW="55"
+         app:layout_heightPercentW="30"
+         android:background="@android:color/darker_gray"
+         android:id="@+id/t1"
+         android:text="宽：父控件宽的55%，高：父控件宽的30%"
+         android:gravity="center"
+         />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:layout_widthPercentW="55"
+         app:layout_heightPercentW="40"
+         android:layout_below="@+id/t1"
+         android:background="@android:color/darker_gray"
+         android:gravity="center"
+         app:layout_marginLeftPercentW="10"
+         android:id="@+id/t2"
+         app:layout_marginTopPercentW="10"
+         android:text="宽：父控件宽的55%，高：父控件宽的40%,marginleft:父控件宽的10% margintop:父控件宽的10%"
+         />
+     <com.example.administrator.percent.view.PercentRelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:layout_widthPercentW="55"
+         android:layout_below="@+id/t2"
+         android:background="@android:color/holo_red_dark"
+         app:layout_heightPercentW="30">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             app:layout_widthPercentW="55"
+             app:layout_heightPercentW="30"
+             android:background="@android:color/darker_gray"
+             android:text="宽：父控件宽的55%，高：父控件宽的30%"
+             android:gravity="center"
+             />
+     </com.example.administrator.percent.view.PercentRelativeLayout>
+     </com.example.administrator.percent.view.PercentRelativeLayout>
+
+</RelativeLayout>

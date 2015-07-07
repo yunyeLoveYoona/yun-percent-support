@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="percent_layout_params">
+        <attr name="layout_widthPercentW" format="integer"></attr>
+        <attr name="layout_widthPercentH" format="integer"></attr>
+        <attr name="layout_heightPercentW" format="integer"></attr>
+        <attr name="layout_heightPercentH" format="integer"></attr>
+        <attr name="layout_marginPercentW" format="integer"></attr>
+        <attr name="layout_marginPercentH" format="integer"></attr>
+        <attr name="layout_paddingPercentW" format="integer"></attr>
+        <attr name="layout_paddingPercentH" format="integer"></attr>
+        <attr name="layout_marginLeftPercentW" format="integer"></attr>
+        <attr name="layout_marginLeftPercentH" format="integer"></attr>
+        <attr name="layout_marginTopPercentW" format="integer"></attr>
+        <attr name="layout_marginTopPercentH" format="integer"></attr>
+        <attr name="layout_marginRightPercentW" format="integer"></attr>
+        <attr name="layout_marginRightPercentH" format="integer"></attr>
+        <attr name="layout_marginBottomPercentW" format="integer"></attr>
+        <attr name="layout_marginBottomPercentH" format="integer"></attr>
+        <attr name="layout_paddingLeftPercentW" format="integer"></attr>
+        <attr name="layout_paddingLeftPercentH" format="integer"></attr>
+        <attr name="layout_paddingTopPercentW" format="integer"></attr>
+        <attr name="layout_paddingTopPercentH" format="integer"></attr>
+        <attr name="layout_paddingRightPercentW" format="integer"></attr>
+        <attr name="layout_paddingRightPercentH" format="integer"></attr>
+        <attr name="layout_paddingBottomPercentW" format="integer"></attr>
+        <attr name="layout_paddingBottomPercentH" format="integer"></attr>
+    </declare-styleable>
+</resources>
