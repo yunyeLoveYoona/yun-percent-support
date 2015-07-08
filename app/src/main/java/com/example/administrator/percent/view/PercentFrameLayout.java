@@ -2,20 +2,23 @@ package com.example.administrator.percent.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
-import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
+import android.widget.FrameLayout;
 
 import com.example.administrator.percent.helper.PercentLayoutHelper;
 
 /**
- * Created by Administrator on 15-7-7.
+ * Created by Administrator on 15-7-8.
  */
-public class PercentRelativeLayout extends RelativeLayout
-{
-    public PercentRelativeLayout(Context context, AttributeSet attrs) {
+public class PercentFrameLayout extends FrameLayout{
+    public PercentFrameLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
+    }
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        PercentLayoutHelper.measureChild(this);
+        super.onMeasure(widthMeasureSpec,heightMeasureSpec);
     }
 
     @Override
@@ -24,15 +27,7 @@ public class PercentRelativeLayout extends RelativeLayout
         return new LayoutParams(getContext(),attrs);
     }
 
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        PercentLayoutHelper.measureChild(this);
-        super.onMeasure(widthMeasureSpec,heightMeasureSpec);
-
-    }
-
-
-    public class LayoutParams extends RelativeLayout.LayoutParams implements
+    public class LayoutParams extends FrameLayout.LayoutParams implements
             PercentLayoutHelper.PercentLayoutParams{
         private PercentLayoutHelper percentLayoutHelper;
         public LayoutParams(Context c, AttributeSet attrs) {
