@@ -56,6 +56,20 @@
              android:layout_alignParentRight="true"
              />
      </com.example.administrator.percent.view.PercentRelativeLayout>
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="图片 宽：父控件宽的20% 高：父控件宽的百分之30"
+         />
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/c"
+         app:layout_widthPercentW="20"
+         app:layout_heightPercentW="30"
+         />
      </com.example.administrator.percent.view.PercentLinearLayout>
 
 </RelativeLayout>
