@@ -15,15 +15,15 @@
         <attr name="layout_marginTopPercentH" format="integer"></attr>
         <attr name="layout_marginRightPercentW" format="integer"></attr>
         <attr name="layout_marginRightPercentH" format="integer"></attr>
-        <attr name="layout_marginBottomPercentW" format="integer"></attr>
-        <attr name="layout_marginBottomPercentH" format="integer"></attr>
+        <attr name="layout_marginButtomPercentW" format="integer"></attr>
+        <attr name="layout_marginButtomPercentH" format="integer"></attr>
         <attr name="layout_paddingLeftPercentW" format="integer"></attr>
         <attr name="layout_paddingLeftPercentH" format="integer"></attr>
         <attr name="layout_paddingTopPercentW" format="integer"></attr>
         <attr name="layout_paddingTopPercentH" format="integer"></attr>
         <attr name="layout_paddingRightPercentW" format="integer"></attr>
         <attr name="layout_paddingRightPercentH" format="integer"></attr>
-        <attr name="layout_paddingBottomPercentW" format="integer"></attr>
-        <attr name="layout_paddingBottomPercentH" format="integer"></attr>
+        <attr name="layout_paddingButtomPercentW" format="integer"></attr>
+        <attr name="layout_paddingButtomPercentH" format="integer"></attr>
     </declare-styleable>
 </resources>
